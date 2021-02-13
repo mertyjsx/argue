@@ -1,0 +1,9 @@
+.containerLeft{
+width: 22%;
+position: sticky;
+left: 0;
+top:60px;
+height: 100%;
+
+background-color:#F7F8FA;
+}

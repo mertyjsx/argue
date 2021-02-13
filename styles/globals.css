@@ -1,7 +1,7 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin: 0  !important; 
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -14,3 +14,95 @@ a {
 * {
   box-sizing: border-box;
 }
+h1,h2,h3,h4,h5,h6{
+  margin: 0 !important;
+  
+}
+
+/*=====Position-css=====*/
+
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*=====navbar>navbar.js=====*/
+.navbarContainer{
+  
+  width: 100%;
+  height: 60px;
+ z-index: 200;
+  background: #FFFFFF;
+  position: sticky;
+  top:0;
+  padding: 10px 20px;
+  
+
+
+}
+.logo{
+  padding-left: 10px;
+  width: 10%;
+  height: 100%;
+}
+.logo img{
+  height: 100%;
+}
+
+
+.searchBox{
+  background-color:#F7F8FA;
+  width: 35%;
+  height: 100%;
+}
+.menus{
+  display: flex;
+  width: 35%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilePhoto{
+  height: 100%;
+  border-radius: 50%;
+}
+.borderLeft{
+  border-left: 1px solid #000000;
+}
+/*=====width-height-css=====*/
+.h100{
+  height: 100%;
+}
+
+.wh-100{
+  width: 100%;
+  height: 100% !important; 
+}
+
+/*PADDING*/
+.p1{
+  padding: 0 1rem;
+}
+.p2{
+  padding: 2rem;
+}
+.p3{
+  padding: 3rem;
+}
+.p4{
+  padding: 4rem;
+}
+
+
+
